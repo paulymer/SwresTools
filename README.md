@@ -1,4 +1,4 @@
-SwresTools is a set of two tools for exploring and dumping classic Macintosh resource forks, written in Swift.
+SwresTools is a set of two tools for exploring and dumping classic Macintosh resource forks, written in Swift. The best(worst) part is you can mount a resource fork as a filesystem with FUSE.
 
 SwresTools can convert some resources to modern types. For example, it can translate some <code>snd </code> resources to WAV files.
 
