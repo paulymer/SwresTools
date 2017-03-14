@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CA9567C41DC132620031E5F5 /* Everything */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CA9567C51DC132620031E5F5 /* Build configuration list for PBXAggregateTarget "Everything" */;
+			buildPhases = (
+			);
+			dependencies = (
+				CA9567C91DC1326A0031E5F5 /* PBXTargetDependency */,
+				CA9567CB1DC1326C0031E5F5 /* PBXTargetDependency */,
+			);
+			name = Everything;
+			productName = Everything;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		CA2B20FF1DA57DAB00A14B92 /* TranslatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B20FE1DA57DAB00A14B92 /* TranslatorManager.swift */; };
+		CA4150EA1DAF4401005F689D /* SequenceExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150E41DAF4401005F689D /* SequenceExtras.swift */; };
+		CA4150EB1DAF4401005F689D /* DictionaryExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150E51DAF4401005F689D /* DictionaryExtras.swift */; };
+		CA4150EC1DAF4401005F689D /* ErrorExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150E61DAF4401005F689D /* ErrorExtras.swift */; };
+		CA4150ED1DAF4401005F689D /* PointerExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150E71DAF4401005F689D /* PointerExtras.swift */; };
+		CA4150EE1DAF4401005F689D /* StrideExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150E81DAF4401005F689D /* StrideExtras.swift */; };
+		CA4150EF1DAF4401005F689D /* StringExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150E91DAF4401005F689D /* StringExtras.swift */; };
+		CA4150F21DAF4407005F689D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150F01DAF4407005F689D /* main.swift */; };
+		CA4150F31DAF4407005F689D /* SwresExplode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150F11DAF4407005F689D /* SwresExplode.swift */; };
+		CA4150F61DAF440F005F689D /* PascalStringTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150F41DAF440F005F689D /* PascalStringTranslator.swift */; };
+		CA4150F71DAF440F005F689D /* SndTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150F51DAF440F005F689D /* SndTranslator.swift */; };
+		CA4EB2CE1DB8057100A775DF /* SequenceExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150E41DAF4401005F689D /* SequenceExtras.swift */; };
+		CA4EB2CF1DB8057100A775DF /* DictionaryExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150E51DAF4401005F689D /* DictionaryExtras.swift */; };
+		CA4EB2D01DB8057100A775DF /* ErrorExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150E61DAF4401005F689D /* ErrorExtras.swift */; };
+		CA4EB2D11DB8057100A775DF /* PointerExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150E71DAF4401005F689D /* PointerExtras.swift */; };
+		CA4EB2D21DB8057100A775DF /* StrideExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150E81DAF4401005F689D /* StrideExtras.swift */; };
+		CA4EB2D31DB8057100A775DF /* StringExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150E91DAF4401005F689D /* StringExtras.swift */; };
+		CA4EB2D41DB8057700A775DF /* FourCharCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9007D01D8DBD1900B7D2BD /* FourCharCode.swift */; };
+		CA4EB2D51DB8057700A775DF /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9007D41D8DF9C400B7D2BD /* Resource.swift */; };
+		CA4EB2D61DB8057700A775DF /* ResourceForkReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9007CE1D8DBCAF00B7D2BD /* ResourceForkReader.swift */; };
+		CA4EB2D71DB8057700A775DF /* SeekableReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9007CC1D8DB31400B7D2BD /* SeekableReader.swift */; };
+		CA4EB2D81DB8057700A775DF /* Writer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA572C501DB2058E00A2AF8F /* Writer.swift */; };
+		CA4EB2D91DB8057700A775DF /* TranslatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B20FE1DA57DAB00A14B92 /* TranslatorManager.swift */; };
+		CA4EB2DA1DB8057700A775DF /* PascalStringTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150F41DAF440F005F689D /* PascalStringTranslator.swift */; };
+		CA4EB2DB1DB8057700A775DF /* SndTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4150F51DAF440F005F689D /* SndTranslator.swift */; };
+		CA4EB2DC1DB8057700A775DF /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6136641DA4ADD0001F81DA /* Translator.swift */; };
+		CA4EB2E11DB9ECCB00A775DF /* FilesystemNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4EB2DF1DB9E44300A775DF /* FilesystemNode.swift */; };
+		CA572C511DB2058E00A2AF8F /* Writer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA572C501DB2058E00A2AF8F /* Writer.swift */; };
+		CA584C971DB491DF00E36C26 /* SwresFuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA584C961DB491DF00E36C26 /* SwresFuse.swift */; };
+		CA5AA8EC1DB44814001866EB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5AA8EB1DB44814001866EB /* main.swift */; };
+		CA6136651DA4ADD0001F81DA /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6136641DA4ADD0001F81DA /* Translator.swift */; };
+		CA9007CD1D8DB31400B7D2BD /* SeekableReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9007CC1D8DB31400B7D2BD /* SeekableReader.swift */; };
+		CA9007CF1D8DBCAF00B7D2BD /* ResourceForkReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9007CE1D8DBCAF00B7D2BD /* ResourceForkReader.swift */; };
+		CA9007D11D8DBD1900B7D2BD /* FourCharCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9007D01D8DBD1900B7D2BD /* FourCharCode.swift */; };
+		CA9007D51D8DF9C400B7D2BD /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9007D41D8DF9C400B7D2BD /* Resource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA9567C81DC1326A0031E5F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA9007BA1D8DAFB500B7D2BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA9007C11D8DAFB500B7D2BD;
+			remoteInfo = SwresExplode;
+		};
+		CA9567CA1DC1326C0031E5F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA9007BA1D8DAFB500B7D2BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA5AA8E81DB44814001866EB;
+			remoteInfo = SwresFUSE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA5AA8E71DB44814001866EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CA9007C01D8DAFB500B7D2BD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA2B20FE1DA57DAB00A14B92 /* TranslatorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TranslatorManager.swift; path = Translators/TranslatorManager.swift; sourceTree = "<group>"; };
+		CA4150E41DAF4401005F689D /* SequenceExtras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SequenceExtras.swift; path = Extras/SequenceExtras.swift; sourceTree = "<group>"; };
+		CA4150E51DAF4401005F689D /* DictionaryExtras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DictionaryExtras.swift; path = Extras/DictionaryExtras.swift; sourceTree = "<group>"; };
+		CA4150E61DAF4401005F689D /* ErrorExtras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorExtras.swift; path = Extras/ErrorExtras.swift; sourceTree = "<group>"; };
+		CA4150E71DAF4401005F689D /* PointerExtras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointerExtras.swift; path = Extras/PointerExtras.swift; sourceTree = "<group>"; };
+		CA4150E81DAF4401005F689D /* StrideExtras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StrideExtras.swift; path = Extras/StrideExtras.swift; sourceTree = "<group>"; };
+		CA4150E91DAF4401005F689D /* StringExtras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtras.swift; path = Extras/StringExtras.swift; sourceTree = "<group>"; };
+		CA4150F01DAF4407005F689D /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = SwresExplode/main.swift; sourceTree = "<group>"; };
+		CA4150F11DAF4407005F689D /* SwresExplode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwresExplode.swift; path = SwresExplode/SwresExplode.swift; sourceTree = "<group>"; };
+		CA4150F41DAF440F005F689D /* PascalStringTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PascalStringTranslator.swift; path = Translators/PascalStringTranslator.swift; sourceTree = "<group>"; };
+		CA4150F51DAF440F005F689D /* SndTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SndTranslator.swift; path = Translators/SndTranslator.swift; sourceTree = "<group>"; };
+		CA4EB2DF1DB9E44300A775DF /* FilesystemNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesystemNode.swift; sourceTree = "<group>"; };
+		CA572C501DB2058E00A2AF8F /* Writer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Writer.swift; sourceTree = "<group>"; };
+		CA584C8C1DB47C9300E36C26 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Modules/FUSE/module.modulemap; sourceTree = "<group>"; };
+		CA584C8F1DB4894500E36C26 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Configurations/Debug.xcconfig; sourceTree = "<group>"; };
+		CA584C901DB4894500E36C26 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = Configurations/Project.xcconfig; sourceTree = "<group>"; };
+		CA584C911DB4894500E36C26 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Configurations/Release.xcconfig; sourceTree = "<group>"; };
+		CA584C941DB4897800E36C26 /* SwresExplode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SwresExplode.xcconfig; path = SwresExplode/SwresExplode.xcconfig; sourceTree = "<group>"; };
+		CA584C951DB4897F00E36C26 /* SwresFUSE.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SwresFUSE.xcconfig; sourceTree = "<group>"; };
+		CA584C961DB491DF00E36C26 /* SwresFuse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwresFuse.swift; sourceTree = "<group>"; };
+		CA5AA8E91DB44814001866EB /* SwresFUSE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwresFUSE; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5AA8EB1DB44814001866EB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CA6136641DA4ADD0001F81DA /* Translator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Translator.swift; path = Translators/Translator.swift; sourceTree = "<group>"; };
+		CA9007C21D8DAFB500B7D2BD /* SwresExplode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwresExplode; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9007CC1D8DB31400B7D2BD /* SeekableReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeekableReader.swift; sourceTree = "<group>"; };
+		CA9007CE1D8DBCAF00B7D2BD /* ResourceForkReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceForkReader.swift; sourceTree = "<group>"; };
+		CA9007D01D8DBD1900B7D2BD /* FourCharCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourCharCode.swift; sourceTree = "<group>"; };
+		CA9007D41D8DF9C400B7D2BD /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA5AA8E61DB44814001866EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9007BF1D8DAFB500B7D2BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA4150E31DAF439C005F689D /* SwresExpolode */ = {
+			isa = PBXGroup;
+			children = (
+				CA4150F01DAF4407005F689D /* main.swift */,
+				CA4150F11DAF4407005F689D /* SwresExplode.swift */,
+				CA584C941DB4897800E36C26 /* SwresExplode.xcconfig */,
+			);
+			name = SwresExpolode;
+			sourceTree = "<group>";
+		};
+		CA584C8D1DB47C9F00E36C26 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AA8F01DB44E40001866EB /* FUSE */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		CA584C8E1DB4893300E36C26 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				CA584C8F1DB4894500E36C26 /* Debug.xcconfig */,
+				CA584C901DB4894500E36C26 /* Project.xcconfig */,
+				CA584C911DB4894500E36C26 /* Release.xcconfig */,
+			);
+			name = Configurations;
+			sourceTree = "<group>";
+		};
+		CA5AA8EA1DB44814001866EB /* SwresFUSE */ = {
+			isa = PBXGroup;
+			children = (
+				CA5AA8EB1DB44814001866EB /* main.swift */,
+				CA4EB2DF1DB9E44300A775DF /* FilesystemNode.swift */,
+				CA584C961DB491DF00E36C26 /* SwresFuse.swift */,
+				CA584C951DB4897F00E36C26 /* SwresFUSE.xcconfig */,
+			);
+			path = SwresFUSE;
+			sourceTree = "<group>";
+		};
+		CA5AA8F01DB44E40001866EB /* FUSE */ = {
+			isa = PBXGroup;
+			children = (
+				CA584C8C1DB47C9300E36C26 /* module.modulemap */,
+			);
+			name = FUSE;
+			sourceTree = "<group>";
+		};
+		CA6136601DA49D48001F81DA /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				CA4150E51DAF4401005F689D /* DictionaryExtras.swift */,
+				CA4150E61DAF4401005F689D /* ErrorExtras.swift */,
+				CA4150E71DAF4401005F689D /* PointerExtras.swift */,
+				CA4150E41DAF4401005F689D /* SequenceExtras.swift */,
+				CA4150E81DAF4401005F689D /* StrideExtras.swift */,
+				CA4150E91DAF4401005F689D /* StringExtras.swift */,
+			);
+			name = Extras;
+			sourceTree = "<group>";
+		};
+		CA6136611DA4ADA2001F81DA /* Translators */ = {
+			isa = PBXGroup;
+			children = (
+				CA4150F41DAF440F005F689D /* PascalStringTranslator.swift */,
+				CA4150F51DAF440F005F689D /* SndTranslator.swift */,
+				CA6136641DA4ADD0001F81DA /* Translator.swift */,
+				CA2B20FE1DA57DAB00A14B92 /* TranslatorManager.swift */,
+			);
+			name = Translators;
+			sourceTree = "<group>";
+		};
+		CA9007B91D8DAFB500B7D2BD = {
+			isa = PBXGroup;
+			children = (
+				CA6136601DA49D48001F81DA /* Extras */,
+				CA9007C41D8DAFB500B7D2BD /* SwresTools */,
+				CA6136611DA4ADA2001F81DA /* Translators */,
+				CA4150E31DAF439C005F689D /* SwresExpolode */,
+				CA5AA8EA1DB44814001866EB /* SwresFUSE */,
+				CA584C8D1DB47C9F00E36C26 /* Modules */,
+				CA584C8E1DB4893300E36C26 /* Configurations */,
+				CA9007C31D8DAFB500B7D2BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA9007C31D8DAFB500B7D2BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA9007C21D8DAFB500B7D2BD /* SwresExplode */,
+				CA5AA8E91DB44814001866EB /* SwresFUSE */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA9007C41D8DAFB500B7D2BD /* SwresTools */ = {
+			isa = PBXGroup;
+			children = (
+				CA9007D01D8DBD1900B7D2BD /* FourCharCode.swift */,
+				CA9007D41D8DF9C400B7D2BD /* Resource.swift */,
+				CA9007CE1D8DBCAF00B7D2BD /* ResourceForkReader.swift */,
+				CA9007CC1D8DB31400B7D2BD /* SeekableReader.swift */,
+				CA572C501DB2058E00A2AF8F /* Writer.swift */,
+			);
+			path = SwresTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA5AA8E81DB44814001866EB /* SwresFUSE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5AA8EF1DB44814001866EB /* Build configuration list for PBXNativeTarget "SwresFUSE" */;
+			buildPhases = (
+				CA5AA8E51DB44814001866EB /* Sources */,
+				CA5AA8E61DB44814001866EB /* Frameworks */,
+				CA5AA8E71DB44814001866EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwresFUSE;
+			productName = SwresFUSE;
+			productReference = CA5AA8E91DB44814001866EB /* SwresFUSE */;
+			productType = "com.apple.product-type.tool";
+		};
+		CA9007C11D8DAFB500B7D2BD /* SwresExplode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9007C91D8DAFB500B7D2BD /* Build configuration list for PBXNativeTarget "SwresExplode" */;
+			buildPhases = (
+				CA9007BE1D8DAFB500B7D2BD /* Sources */,
+				CA9007BF1D8DAFB500B7D2BD /* Frameworks */,
+				CA9007C01D8DAFB500B7D2BD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwresExplode;
+			productName = SwresTools;
+			productReference = CA9007C21D8DAFB500B7D2BD /* SwresExplode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA9007BA1D8DAFB500B7D2BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Paul Knight";
+				TargetAttributes = {
+					CA5AA8E81DB44814001866EB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					CA9007C11D8DAFB500B7D2BD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					CA9567C41DC132620031E5F5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CA9007BD1D8DAFB500B7D2BD /* Build configuration list for PBXProject "SwresTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA9007B91D8DAFB500B7D2BD;
+			productRefGroup = CA9007C31D8DAFB500B7D2BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA9567C41DC132620031E5F5 /* Everything */,
+				CA9007C11D8DAFB500B7D2BD /* SwresExplode */,
+				CA5AA8E81DB44814001866EB /* SwresFUSE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA5AA8E51DB44814001866EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4EB2D11DB8057100A775DF /* PointerExtras.swift in Sources */,
+				CA4EB2D21DB8057100A775DF /* StrideExtras.swift in Sources */,
+				CA4EB2D71DB8057700A775DF /* SeekableReader.swift in Sources */,
+				CA4EB2DC1DB8057700A775DF /* Translator.swift in Sources */,
+				CA4EB2D01DB8057100A775DF /* ErrorExtras.swift in Sources */,
+				CA4EB2D51DB8057700A775DF /* Resource.swift in Sources */,
+				CA4EB2D31DB8057100A775DF /* StringExtras.swift in Sources */,
+				CA5AA8EC1DB44814001866EB /* main.swift in Sources */,
+				CA4EB2E11DB9ECCB00A775DF /* FilesystemNode.swift in Sources */,
+				CA4EB2CE1DB8057100A775DF /* SequenceExtras.swift in Sources */,
+				CA4EB2CF1DB8057100A775DF /* DictionaryExtras.swift in Sources */,
+				CA584C971DB491DF00E36C26 /* SwresFuse.swift in Sources */,
+				CA4EB2D91DB8057700A775DF /* TranslatorManager.swift in Sources */,
+				CA4EB2D81DB8057700A775DF /* Writer.swift in Sources */,
+				CA4EB2D61DB8057700A775DF /* ResourceForkReader.swift in Sources */,
+				CA4EB2DB1DB8057700A775DF /* SndTranslator.swift in Sources */,
+				CA4EB2D41DB8057700A775DF /* FourCharCode.swift in Sources */,
+				CA4EB2DA1DB8057700A775DF /* PascalStringTranslator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9007BE1D8DAFB500B7D2BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6136651DA4ADD0001F81DA /* Translator.swift in Sources */,
+				CA4150F21DAF4407005F689D /* main.swift in Sources */,
+				CA9007CD1D8DB31400B7D2BD /* SeekableReader.swift in Sources */,
+				CA4150EA1DAF4401005F689D /* SequenceExtras.swift in Sources */,
+				CA4150F31DAF4407005F689D /* SwresExplode.swift in Sources */,
+				CA9007CF1D8DBCAF00B7D2BD /* ResourceForkReader.swift in Sources */,
+				CA9007D11D8DBD1900B7D2BD /* FourCharCode.swift in Sources */,
+				CA2B20FF1DA57DAB00A14B92 /* TranslatorManager.swift in Sources */,
+				CA4150EB1DAF4401005F689D /* DictionaryExtras.swift in Sources */,
+				CA4150EF1DAF4401005F689D /* StringExtras.swift in Sources */,
+				CA4150EC1DAF4401005F689D /* ErrorExtras.swift in Sources */,
+				CA4150EE1DAF4401005F689D /* StrideExtras.swift in Sources */,
+				CA572C511DB2058E00A2AF8F /* Writer.swift in Sources */,
+				CA4150ED1DAF4401005F689D /* PointerExtras.swift in Sources */,
+				CA4150F71DAF440F005F689D /* SndTranslator.swift in Sources */,
+				CA9007D51D8DF9C400B7D2BD /* Resource.swift in Sources */,
+				CA4150F61DAF440F005F689D /* PascalStringTranslator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA9567C91DC1326A0031E5F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA9007C11D8DAFB500B7D2BD /* SwresExplode */;
+			targetProxy = CA9567C81DC1326A0031E5F5 /* PBXContainerItemProxy */;
+		};
+		CA9567CB1DC1326C0031E5F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA5AA8E81DB44814001866EB /* SwresFUSE */;
+			targetProxy = CA9567CA1DC1326C0031E5F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA5AA8ED1DB44814001866EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA584C951DB4897F00E36C26 /* SwresFUSE.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CA5AA8EE1DB44814001866EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA584C951DB4897F00E36C26 /* SwresFUSE.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		CA9007C71D8DAFB500B7D2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA584C8F1DB4894500E36C26 /* Debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Debug;
+		};
+		CA9007C81D8DAFB500B7D2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA584C911DB4894500E36C26 /* Release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		CA9007CA1D8DAFB500B7D2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA584C941DB4897800E36C26 /* SwresExplode.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CA9007CB1D8DAFB500B7D2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA584C941DB4897800E36C26 /* SwresExplode.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		CA9567C61DC132620031E5F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA9567C71DC132620031E5F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA5AA8EF1DB44814001866EB /* Build configuration list for PBXNativeTarget "SwresFUSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5AA8ED1DB44814001866EB /* Debug */,
+				CA5AA8EE1DB44814001866EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9007BD1D8DAFB500B7D2BD /* Build configuration list for PBXProject "SwresTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9007C71D8DAFB500B7D2BD /* Debug */,
+				CA9007C81D8DAFB500B7D2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9007C91D8DAFB500B7D2BD /* Build configuration list for PBXNativeTarget "SwresExplode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9007CA1D8DAFB500B7D2BD /* Debug */,
+				CA9007CB1D8DAFB500B7D2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9567C51DC132620031E5F5 /* Build configuration list for PBXAggregateTarget "Everything" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9567C61DC132620031E5F5 /* Debug */,
+				CA9567C71DC132620031E5F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA9007BA1D8DAFB500B7D2BD /* Project object */;
+}

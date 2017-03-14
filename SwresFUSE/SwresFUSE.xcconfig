@@ -1,0 +1,6 @@
+PRODUCT_NAME = SwresFUSE
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) FUSE_USE_VERSION=26 _FILE_OFFSET_BITS=64
+
+HEADER_SEARCH_PATHS = $(inherited) /usr/local/include/osxfuse
+LIBRARY_SEARCH_PATHS = $(inherited) /usr/local/lib

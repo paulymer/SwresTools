@@ -1,0 +1,5 @@
+module Fuse [system] {
+    header "/usr/local/include/osxfuse/fuse.h"
+    link "osxfuse"
+    export *
+}
