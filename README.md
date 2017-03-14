@@ -30,7 +30,7 @@ Example usage:
 
 ### Why?
 
-¯\\_(ツ)_/¯
+¯\\_(ツ)\_/¯
 
 ### No, Really, Why?
 
@@ -38,7 +38,7 @@ I wanted to rip the music out of the old Mac game [Troubled Souls][troubledsouls
 
 [troubledsouls]: https://en.wikipedia.org/wiki/Troubled_Souls
 
-### Buiding
+### Building
 
 You may need to point the header parameter of Modules/FUSE/module.modulemap to your FUSE header directory. For some reason module maps don't seem to respect header search paths and need absolute paths.
 
