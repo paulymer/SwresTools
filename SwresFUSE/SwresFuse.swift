@@ -267,7 +267,6 @@ func run(_ task: FuseTask) -> Int32 {
         }
 
         let result = fuse_main_real(args.pointee.argc, args.pointee.argv, &operations, MemoryLayout.size(ofValue: operations), nil)
-        print("hi")
         return result
     } catch {
         dieWithMessage(error.shortDescription(withUnderlyingError: true))
