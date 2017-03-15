@@ -110,7 +110,7 @@ func taskForArguments() -> FuseTask {
             switch key {
             case .fuse_opt_key_nonopt:
                 if taskPointer.pointee.inputURL == nil {
-                    taskPointer.pointee.inputURL = URL(fileURLWithPath: option)
+                    taskPointer.pointee.inputURL = URL(fileURLWithPathExpandingTilde: option)
                     return 0
                 }
                 return 1

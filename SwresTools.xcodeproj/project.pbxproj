@@ -57,6 +57,8 @@
 		CA9007CF1D8DBCAF00B7D2BD /* ResourceForkReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9007CE1D8DBCAF00B7D2BD /* ResourceForkReader.swift */; };
 		CA9007D11D8DBD1900B7D2BD /* FourCharCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9007D01D8DBD1900B7D2BD /* FourCharCode.swift */; };
 		CA9007D51D8DF9C400B7D2BD /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9007D41D8DF9C400B7D2BD /* Resource.swift */; };
+		CA9E43111E79B96300DE98D2 /* URLExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9E43101E79B96300DE98D2 /* URLExtras.swift */; };
+		CA9E43121E79B96300DE98D2 /* URLExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9E43101E79B96300DE98D2 /* URLExtras.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +128,7 @@
 		CA9007CE1D8DBCAF00B7D2BD /* ResourceForkReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceForkReader.swift; sourceTree = "<group>"; };
 		CA9007D01D8DBD1900B7D2BD /* FourCharCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourCharCode.swift; sourceTree = "<group>"; };
 		CA9007D41D8DF9C400B7D2BD /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		CA9E43101E79B96300DE98D2 /* URLExtras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLExtras.swift; path = Extras/URLExtras.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +205,7 @@
 				CA4150E41DAF4401005F689D /* SequenceExtras.swift */,
 				CA4150E81DAF4401005F689D /* StrideExtras.swift */,
 				CA4150E91DAF4401005F689D /* StringExtras.swift */,
+				CA9E43101E79B96300DE98D2 /* URLExtras.swift */,
 			);
 			name = Extras;
 			sourceTree = "<group>";
@@ -346,6 +350,7 @@
 				CA4EB2D31DB8057100A775DF /* StringExtras.swift in Sources */,
 				CA5AA8EC1DB44814001866EB /* main.swift in Sources */,
 				CA4EB2E11DB9ECCB00A775DF /* FilesystemNode.swift in Sources */,
+				CA9E43121E79B96300DE98D2 /* URLExtras.swift in Sources */,
 				CA4EB2CE1DB8057100A775DF /* SequenceExtras.swift in Sources */,
 				CA4EB2CF1DB8057100A775DF /* DictionaryExtras.swift in Sources */,
 				CA584C971DB491DF00E36C26 /* SwresFuse.swift in Sources */,
@@ -370,6 +375,7 @@
 				CA9007CF1D8DBCAF00B7D2BD /* ResourceForkReader.swift in Sources */,
 				CA9007D11D8DBD1900B7D2BD /* FourCharCode.swift in Sources */,
 				CA2B20FF1DA57DAB00A14B92 /* TranslatorManager.swift in Sources */,
+				CA9E43111E79B96300DE98D2 /* URLExtras.swift in Sources */,
 				CA4150EB1DAF4401005F689D /* DictionaryExtras.swift in Sources */,
 				CA4150EF1DAF4401005F689D /* StringExtras.swift in Sources */,
 				CA4150EC1DAF4401005F689D /* ErrorExtras.swift in Sources */,

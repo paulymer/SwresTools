@@ -75,7 +75,7 @@ func taskForArguments() -> ExplodeTask {
         case UnicodeScalar("d"):
             task.dumpResources = true
         case UnicodeScalar("o"):
-            task.outputFolder = URL(fileURLWithPath: String(cString: optarg))
+            task.outputFolder = URL(fileURLWithPathExpandingTilde: String(cString: optarg))
         case UnicodeScalar("f"):
             task.overwriteExistingFiles = true
         case UnicodeScalar("c"):
@@ -101,8 +101,8 @@ func taskForArguments() -> ExplodeTask {
     }
 
     let inputPathBytes = CommandLine.unsafeArgv[Int(optind)]!
-    let inputPath = String(cString:inputPathBytes)
-    task.inputURL = URL(fileURLWithPath: inputPath)
+    let inputPath = String(cString: inputPathBytes)
+    task.inputURL = URL(fileURLWithPathExpandingTilde: inputPath)
 
     return task
 }
